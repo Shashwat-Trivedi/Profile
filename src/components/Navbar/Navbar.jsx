@@ -21,26 +21,28 @@ const NavMenu = [
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="container flex justify-between items-center">
-        {/* Logo Section */}
-        <div>
-          <img src={Logo} alt="Happy-Logo" className="w-16" />
+    <>
+      <nav className="py-5 bg-gray text-white">
+        <div className="container flex justify-between items-center">
+          {/* Logo Section */}
+          <div>
+            <img src={Logo} alt="Happy-Logo" className="w-16" />
+          </div>
+          {/* Nav Menu Section */}
+          <div>
+            <ul className="flex justify-center gap-5">
+              {NavMenu.map((item) => {
+                return (
+                  <li key={item.id}>
+                    <a href={item.link}>{item.title}</a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
-        {/* Nav Menu Section */}
-        <div>
-          <ul className="flex justify-center gap-5">
-            {NavMenu.map((item) => {
-              return (
-                <li key={item.id}>
-                  <a href={item.link}>{item.title}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 };
 

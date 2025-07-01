@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+.container {
+  @apply mx-auto px-4 sm:px-8;
+}
+
+.text-primary {
+  color: #ffc25d;
+}
+
+.bg-primary {
+  background-color: #ffc25d;
+}
+
+.text-gray {
+  color: #333646;
+}
+
+.bg-gray {
+  background-color: #333646;
+}
+
+.text-darkGray {
+  color: #252734;
+}
+
+.bg-darkGray {
+  background-color: #252734;
+}
