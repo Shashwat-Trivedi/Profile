@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <main className="bg-gray text-white">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 min-h-[600px] place-items-center py-20 md:py-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 min-h-[600px] place-items-center py-20 md:py-0">
             {/* img section */}
             <div className="grid col-span-2 relative h-full justify-center items-center">
               <div className="w-[280px] sm:w-[400px] md:w-[450px]">
@@ -33,11 +33,11 @@ const Hero = () => {
               </div>
             </div>
             {/* text content section */}
-            <div className="space-y-7">
+            <div className="space-y-7 ">
               <p className="text-sm opacity-50 tracking-widest font-serif translate-y-3">
                 - Introduction
               </p>
-              <h1 className="text-3xl">
+              <h1 className="text-2xl lg:text-3xl">
                 Frontend Developer,
                 <br /> based in Pune.
               </h1>
