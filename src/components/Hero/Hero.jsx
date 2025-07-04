@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <main className="bg-gray text-white">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 min-h-[600px] place-items-center py-20 md:py-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 overflow-y-hidden gap-12 min-h-[600px] place-items-center py-20 md:py-0">
             {/* img section */}
             <div className="grid col-span-2 relative h-full justify-center items-center">
               <div className="w-[280px] sm:w-[400px] md:w-[450px]">

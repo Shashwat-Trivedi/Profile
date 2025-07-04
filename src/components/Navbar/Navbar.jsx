@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/happy-logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavMenu = [
   {
@@ -40,6 +41,11 @@ const Navbar = () => {
                 );
               })}
             </ul> 
+             
+             {/* mobile hamburger menu */}
+             <div className="md:hidden">
+              <GiHamburgerMenu className="text-3xl" />
+             </div>
 
           </div>
         </div>
