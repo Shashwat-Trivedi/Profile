@@ -35,7 +35,7 @@ const Projects = () => {
             <h1 className="text-2xl lg:text-3xl">
               All Creative Works, Selected projects
             </h1>
-            <p className="text-sm leading-6">
+            <p className="text-sm leading-6 opacity-70">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <button
@@ -52,7 +52,7 @@ const Projects = () => {
             projectList.map(
                 (project) => {
                     return (
-                        <div key={project.id} className="space-y-4 px-4 items-center justify-center">
+                        <div key={project.id} className="space-y-4 px-4 mb-8 items-center justify-center">
                             <img src={project.img} alt="" className="w-full hover:scale-110 hover:shadow-lg duration-300" />
                             <p className="text-2xl font-semibold">{project.title}</p>
                         </div>

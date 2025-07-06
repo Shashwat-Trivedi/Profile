@@ -41,7 +41,7 @@ const Hero = () => {
                 Frontend Developer,
                 <br /> based in Pune.
               </h1>
-              <p className="text-sm leading-6">
+              <p className="text-sm leading-6 opacity-70">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
                 nihil dolor pariatur odit corporis vero praesentium nam, fuga
                 minima incidunt temporibus cumque soluta dolorum asperiores!.

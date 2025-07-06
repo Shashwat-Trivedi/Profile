@@ -5,17 +5,17 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const NavMenu = [
   {
     id: 1,
-    title: "Services",
+    title: "Contact",
     link: "#",
   },
   {
     id: 2,
-    title: "Works",
+    title: "Services",
     link: "#",
   },
   {
     id: 3,
-    title: "Blogs",
+    title: "Works",
     link: "#",
   },
 ];

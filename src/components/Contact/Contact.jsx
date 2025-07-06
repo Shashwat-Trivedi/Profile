@@ -34,7 +34,7 @@ const Contact = () => {
           {/* Right Side Section */}
           <section className="space-y-7">
             <p className="text-3xl">
-              You can"t use up creativity, the more you use, the more you have
+              You can't use up creativity, the more you use, the more you have
               in your significant mind.
             </p>
             <p className="text-sm leading-6 opacity-60">
