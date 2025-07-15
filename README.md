@@ -12,7 +12,7 @@ Built with performance, accessibility, and visual appeal in mind.
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](#profile-mauve-phi.vercel.app)  
+🔗 [View Portfolio Live](profile-mauve-phi.vercel.app)  
 
 ---
 
