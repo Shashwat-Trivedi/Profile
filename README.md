@@ -1,12 +1,27 @@
-# React + Vite
+# 💼 Shashwat Trivedi - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website — a responsive, modern interface to showcase my skills, projects, and profile as a frontend developer based in Pune.
 
-Currently, two official plugins are available:
+## 🖥️ About This Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio is designed to present my professional identity, highlight selected projects, and offer a way for others to connect with me for collaborations, freelance work, or creative discussions.
 
-## Expanding the ESLint configuration
+Built with performance, accessibility, and visual appeal in mind.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+🔗 [View Portfolio Live](#)  
+
+---
+
+## 🔧 Tech Stack
+
+- **Framework**: React.js
+- **Styling**: Tailwind CSS, Framer Motion
+- **Icons**: React Icons
+- **Animations**: Framer Motion
+- **Deployment**: Vercel 
+
+---
