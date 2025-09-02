@@ -1,4 +1,6 @@
 import React from "react";
+// import myimg from "../../assets/myimg.jpeg";
+import happylogo from "../../assets/happy-logo.png";
 import person from "../../assets/person.png";
 import { FaArrowRight } from "react-icons/fa";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
@@ -94,7 +96,7 @@ const Hero = () => {
                   initial={{ x: -150 }}
                   whileInView={{ x: 0 }}
                   transition={{ duration: 1 }}
-                  src={person}
+                  src={happylogo}
                   alt="my-image"
                   className="img-shadow scale-110 relative z-10  w-[150px] sm:w-[250px] md:w-full"
                 />
@@ -116,7 +118,7 @@ const Hero = () => {
                 whileInView="show"
                 className="text-2xl lg:text-3xl"
               >
-                Frontend Developer,
+                Frontend and Blockchain Developer,
                 <br /> based in Pune.
               </motion.h1>
               <motion.p
@@ -128,7 +130,7 @@ const Hero = () => {
                 I’m a frontend developer with a passion for clean design and
                 smooth user experiences. I specialize in building responsive,
                 accessible interfaces using modern tools like React and
-                Tailwind, and I enjoy bringing ideas to life on the web..
+                Tailwind, and I enjoy making contribution in web3...
               </motion.p>
               <motion.button
                 variants={container(0.7)}

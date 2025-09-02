@@ -41,6 +41,13 @@ const skills = [
     icon: <MdComputer className="text-4xl" />,
     delay: 0.6,
   },
+  {
+     id: 2,
+     title: "Blockchain Developer",
+     discription: "I create and deploy smart contracts on Ethereum and other blockchains.",
+     icon: <MdComputer className="text-4xl" />,
+     delay: 0.4,
+   },
 ];
 
 const Skills = () => {

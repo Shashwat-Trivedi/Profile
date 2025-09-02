@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import CurrencyConverter from "../../assets/CurrencyConverter.png";
 import ReWear from "../../assets/ReWear.png";
+import HappyLogo from "../../assets/happy-logo.png";
 import PasswordGenerator from "../../assets/PasswordGenerator.png";
 import { motion } from "framer-motion";
 
@@ -30,8 +31,8 @@ const projectList = [
   },
   {
     id: 2,
-    title: "Password Generator",
-    img: PasswordGenerator,
+    title: "D Fiver",
+    img: HappyLogo,
     delay: 0.4,
   },
   {

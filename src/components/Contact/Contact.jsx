@@ -87,9 +87,9 @@ const Contact = () => {
               className="text-sm leading-6"
             >
               I specialize in building responsive, accessible UIs with modern
-              frameworks like React and Tailwind. Every project is a chance to
+              frameworks like React and Tailwind.Also every project in web3 is a chance to
               improve, experiment, and push the boundaries of what’s possible on
-              the web.
+              the blockchain.
             </motion.p>
             <div className="grid grid-cols-2 gap-4">
               <motion.div
